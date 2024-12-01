@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "day": "deno run --watch=main.ts,days/ main.ts"
+  }
+}

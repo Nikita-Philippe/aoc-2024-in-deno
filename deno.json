@@ -1,5 +1,5 @@
 {
   "tasks": {
-    "day": "deno run --watch=main.ts,days/ main.ts"
+    "day": "deno run -A --watch=main.ts,days/ --allow-write --allow-read main.ts"
   }
 }

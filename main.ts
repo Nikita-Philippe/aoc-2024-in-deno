@@ -7,4 +7,10 @@ if (!day) {
 }
 
 const module = await import(`./days/${day}.ts`);
-await module.default();
+const res = await module.default();
+console.log(
+    `Result of day %c${day}%c : %c${typeof res === 'object' ? JSON.stringify(res) : res}`,
+    'color: green',
+    '', // Reset styles after green text
+    'color: blue'
+  );

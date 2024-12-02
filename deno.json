@@ -1,5 +1,10 @@
 {
   "tasks": {
     "day": "deno run -A --watch=main.ts,days/ main.ts"
+  },
+  "fmt": {
+    "options": {
+      "lineWidth": 120
+    }
   }
 }
